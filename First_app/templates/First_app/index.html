@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    {% load static %}
+    
+</head>
+<body class='bg-[#000000]'>
+    
+    <header class='bg-[#AC58E9] w-full drop-shadow-xl/25 drop-shadow-white fixed z-50'>
+
+        <nav class='max-w-7xl mx-auto px-6 py-4 flex items-center justify-between'>
+
+            <div>
+                <h1 class='text-2xl'>Logo</h1>
+            </div>
+            
+            <ul class="flex space-x-8 text-black font-medium">
+            <li><a href="#" class="hover:text-black hover:bg-white hover:rounded-2xl hover:p-2">Home</a></li>
+            <li><a href="#" class="hover:text-black hover:bg-white hover:rounded-2xl hover:p-2">About</a></li>
+            <li><a href="#" class="hover:text-black hover:bg-white hover:rounded-2xl hover:p-2">Contact</a></li>
+            <li><a href="#" class="hover:text-black hover:bg-white hover:rounded-2xl hover:p-2">Info</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <section>
+
+         <div class='grid grid-cols-2 '>
+            <div>
+        
+                <div class='p-20' >
+                    <h1 class="text-white text-6xl p-2 font-['Space_Grotesk'] tracking-tighter"> Need AI?</h1>
+                    <h1 class="text-white text-6xl p-2 font-['Space_Grotesk'] tracking-tighter"> Create AI with us</h1>
+                    
+                    <p class='px-2 py-5 text-xl text-[#F3E5F5] font-['Inter']'>
+                    We design and develop intelligent AI-powered solutions that focus on performance, scalability, and real-world impact. 
+                    From automation systems to smart web applications, We combine modern web technologies with artificial intelligence 
+                    to build products that are efficient, reliable, and future-ready.
+                    </p>
+
+                    <div class='h-2xl w-2xl py-5 px-2 '>
+                        
+                        <button class='bg-[#AC58E9] rounded-full p-4 hover:bg-[#7637a2] shadow-[0_0_10px_#bf00ff,5px_5px_15px_#300041]'>Learn more</button>
+                        <button class='bg-white rounded-full p-4 hover:bg-[#7637a2] shadow-[0_0_10px_#bf00ff,10px_10px_30px_#300041] mx-5'>Contact us</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        
+            <div 
+                class="h-screen w-full bg-no-repeat bg-center bg-cover"
+                style="background-image: url('{% static 'image/robotic.png' %}');">
+            </div>
+            
+            
+
+        </div>
+
+    </section>
+
+   <section class="relative h-screen w-full flex justify-center items-center shadow-[0_50px_100px_100px_rgba(48,0,65,0.8),0_0_50px_rgba(191,0,255,0.3)]">
+
+        <div class='absolute top-0 pt-20 '>
+
+            <h1 class='text-6xl bg-linear-to-r from-purple-800 to-gray-700 text-transparent bg-clip-text font-bold'>What can we offer you</h1>
+
+        </div>
+
+        
+        
+        
+
+        
+    </section>
+   
+    
+    
+</body>
+</html> 
