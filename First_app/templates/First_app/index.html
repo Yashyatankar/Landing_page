@@ -69,22 +69,48 @@
 
         </div>
 
-    </section>
+    <section class="relative min-h-screen w-full flex flex-col justify-center items-center py-20 shadow-[0_50px_100px_100px_rgba(48,0,65,0.8)]">
 
-   <section class="relative h-screen w-full flex justify-center items-center shadow-[0_50px_100px_100px_rgba(48,0,65,0.8),0_0_50px_rgba(191,0,255,0.3)]">
-
-        <div class='absolute top-0 pt-20 '>
-
-            <h1 class='text-6xl bg-linear-to-r from-purple-800 to-gray-700 text-transparent bg-clip-text font-bold'>What can we offer you</h1>
-
+        <div class='mb-16'>
+            <h1 class='text-white font-["Space_Grotesk"] text-6xl md:text-8xl font-bold tracking-tighter leading-tight text-center'>
+                What can we offer you
+            </h1>
         </div>
 
-        
-        
-        
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-8 px-10 w-full max-w-7xl'>
+            
+            <div class='flex flex-col bg-purple-500 rounded-3xl p-6 gap-4 shadow-xl shadow-purple-700'>
+                <img src="{% static 'image/photo-1.jpg' %}" alt="Offer 1" class='w-full h-auto bg-center bg-cover bg-no-repeat rounded-2xl shadow-lg'>
+                <div>
+                    <h3 class='text-white text-xl font-bold mb-2'>Premium Quality</h3>
+                    <p class='text-white/90 text-sm leading-relaxed'>
+                       Uncompromising standards for extraordinary results. We prioritize precision and durability in everything we create, ensuring that our products exceed expectations. When you choose our premium services, you’re investing in top-tier craftsmanship and a final result that truly stands out from the competition.
+                    </p>
+                </div>
+            </div>
 
-        
-    </section>
+            <div class='flex flex-col bg-purple-500 rounded-3xl p-6 gap-4 shadow-xl shadow-purple-700'>
+                <img src="{% static 'image/photo-2.jpg' %}" alt="Offer 2" class='w-full h-auto rounded-2xl shadow-lg bg-center bg-cover bg-no-repeat'>
+                <div>
+                    <h3 class='text-white text-xl font-bold mb-2'>Modern Design</h3>
+                    <p class='text-white/90 text-sm leading-relaxed'>
+                       Design is more than just how something looks—it’s how it works. Our team prioritizes a user-centric approach, creating clean, responsive, and accessible layouts that adapt perfectly to any device. By stripping away the noise, we focus on what matters most: providing a seamless journey that keeps your users engaged and coming back for more.
+                    </p>
+                </div>
+            </div>
+
+            <div class='flex flex-col bg-purple-500 rounded-3xl p-6 gap-4 shadow-xl shadow-purple-700'>
+                <img src="{% static 'image/photo-3.jpg' %}" alt="Offer 3" class='w-full h-auto bg-center bg-cover bg-no-repeat rounded-2xl shadow-lg'>
+                <div>
+                    <h3 class='text-white text-xl font-bold mb-2'>Global Support</h3>
+                    <p class='text-white/90 text-sm leading-relaxed'>
+                        We are with you every step of the way, no matter where you are in the world. Our dedicated global support team operates across all time zones to ensure that help is always just a click away. From technical troubleshooting to strategic advice, we provide the round-the-clock reliability your business needs to stay connected and productive.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>  
    
     
     
